@@ -1,0 +1,74 @@
+Enganxa aquí abaix el teu historial de línia de comandos:
+
+Microsoft Windows [Versión 10.0.22631.3880]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\sepro>cd../..
+
+C:\>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 4C51-CE3B
+
+ Directorio de C:\
+
+22/06/2024  15:40    <DIR>          ESD
+04/05/2024  02:55    <DIR>          eSupport
+07/05/2024  18:11               105 GetDeviceCap.xml
+07/05/2024  18:11             4.017 GetDeviceStatus.xml
+07/05/2022  07:24    <DIR>          PerfLogs
+04/05/2024  02:53    <DIR>          Preload64
+22/06/2024  19:44    <DIR>          Program Files
+17/07/2024  09:38    <DIR>          Program Files (x86)
+22/06/2024  15:19    <DIR>          Recovery
+22/06/2024  15:12    <DIR>          Users
+17/07/2024  11:10                59 vacances.txt
+11/07/2024  22:37    <DIR>          Windows
+30/05/2024  09:31    <DIR>          xampp
+               3 archivos          4.181 bytes
+              10 dirs  313.386.749.952 bytes libres
+
+C:\>move vacances.txt C:\Users\sepro\Documents
+Se han movido         1 archivos.
+
+C:\>cd C:\Users\sepro\Documents
+
+C:\Users\sepro\Documents>dir
+ El volumen de la unidad C es OS
+ El número de serie del volumen es: 4C51-CE3B
+
+ Directorio de C:\Users\sepro\Documents
+
+17/07/2024  11:20    <DIR>          .
+22/06/2024  15:21    <DIR>          ..
+16/07/2024  12:25            12.565 42barcelonaQR.pdf
+15/07/2024  22:37    <DIR>          Diceño y Confeccion de paginas web
+15/07/2024  22:52    <DIR>          MIS DOCUMENTOS
+15/07/2024  22:53    <DIR>          OTROS DOCUMENTOS
+16/07/2024  20:37    <DIR>          Plantillas personalizadas de Office
+17/07/2024  11:10                59 vacances.txt
+               2 archivos         12.624 bytes
+               6 dirs  313.424.162.816 bytes libres
+
+C:\Users\sepro\Documents>md modul3
+
+C:\Users\sepro\Documents>move vacances.txt C:\Users\sepro\Documents\modul3
+Se han movido         1 archivos.
+
+C:\Users\sepro\Documents>cd C:\Users\sepro\Documents\modul3
+
+C:\Users\sepro\Documents\modul3>rename vacances.txt dimecres.txt
+
+C:\Users\sepro\Documents\modul3>doskey /history
+cd../..
+dir
+move vacances.txt C:\Users\sepro\Documents
+cd documentos
+cd C:\Users\sepro\Documents
+dir
+md modul3
+move vacances.txt C:\Users\sepro\Documents\modul3
+cd C:\Users\sepro\Documents\modul3
+rename vacances.txt dimecres.txt
+doskey /history
+
+C:\Users\sepro\Documents\modul3>
